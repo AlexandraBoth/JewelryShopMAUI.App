@@ -20,7 +20,6 @@
                    BasedOn="{StaticResource SectionContainerStyle}">
                 <Setter Property="HorizontalOptions" Value="Center" />
             </Style>
-            
 
             <Style x:Key="TitleTextStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="16" />

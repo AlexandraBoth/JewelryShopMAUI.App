@@ -1,4 +1,6 @@
-﻿namespace JewelryShopMAUI;
+﻿using Microsoft.Maui.Controls.Compatibility.Hosting;
+
+namespace JewelryShopMAUI;
 
 public static class MauiProgram
 {
@@ -7,7 +9,8 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
+            .UseMauiCompatibility()
+            .ConfigureFonts(fonts =>
 			{
                 fonts.AddFont("fallingsky.otf", "Fallingsky");
                 fonts.AddFont("fallingskybd.otf", "Fallingskybd");
