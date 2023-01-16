@@ -1,9 +1,11 @@
-namespace JewelryShopMAUI.Views.Templates;
-
-public partial class NewContent1 : ContentView
+namespace JewelryShopMAUI.Views.Templates
 {
-	public NewContent1()
-	{
-		InitializeComponent();
-	}
+
+    public partial class ResultsItemTemplate : ContentView
+    {
+        public ResultsItemTemplate()
+        {
+            InitializeComponent();
+        }
+    }
 }
