@@ -33,7 +33,7 @@ namespace JewelryShopMAUI.ViewModels
             // Add first fake item
             Produse.Add(new Produs());
 
-            foreach (var produs in ProdusS.Instance.GetProdus())
+            foreach (var produs in ProdusS.Instance.GetProduse())
                 Produse.Add(produs);
         }
     }

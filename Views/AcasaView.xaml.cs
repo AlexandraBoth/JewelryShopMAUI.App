@@ -4,6 +4,8 @@ public partial class AcasaView : ContentPage
 {
 	public AcasaView()
 	{
-		InitializeComponent();
-	}
+        InitializeComponent();
+
+        NavigationPage.SetHasNavigationBar(this, false);
+    }
 }

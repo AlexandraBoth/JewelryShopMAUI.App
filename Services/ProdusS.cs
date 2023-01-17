@@ -14,7 +14,7 @@ namespace JewelryShopMAUI.Services
             get { return _instance ?? (_instance = new ProdusS()); }
         }
 
-        public List<Produs> GetProdus()
+        public List<Produs> GetProduse()
         {
             return new List<Produs> {
               new Produs {

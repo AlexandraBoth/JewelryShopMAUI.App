@@ -5,7 +5,7 @@ namespace JewelryShopMAUI.Views.Templates
     public class ProductDataTemplateSelector : DataTemplateSelector
     {
         public DataTemplate ResultsTemplate { get; set; }
-        public DataTemplate ProductTemplate { get; set; }
+        public DataTemplate ProdusTemplate { get; set; }
 
         protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
@@ -14,7 +14,7 @@ namespace JewelryShopMAUI.Views.Templates
             if (product.IsEmpty())
                 return ResultsTemplate;
 
-            return ProductTemplate;
+            return ProdusTemplate;
         }
     }
 }
